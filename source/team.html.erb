@@ -1,0 +1,17 @@
+<div id="team">
+  <h3> This footer is my team at Le Wagon</h3>
+    <div class="container">
+    <div class="team_content">
+      <div class="row">
+        <% data.users.each do |user| %>
+          <div class="col-xs-12 col-sm-6">
+            <%= image_tag "#{user.img}", class: "img-circle img_team" %>
+            <h5><%= user.name.capitalize %></h5>
+          </div>
+        <% end %>
+        </div>
+      </div> <!-- closing row -->
+    </div> <!-- closing container -->
+</div>
+
+

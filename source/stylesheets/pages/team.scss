@@ -1,0 +1,27 @@
+#team {
+  // background-image: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #fff), color-stop(50%, #5f3e3e));
+ background:linear-gradient(0deg, #fff 80%, #F4F4F4 20%);
+ // background-color: #F4F4F4;
+  text-align: center;
+  background-size: cover !important;
+  min-height: 100vh;
+  .img_team{
+    width: 150px;
+
+  }
+  .team_content{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* font-size: 13px; */
+    /* color: gainsboro; */
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+  }
+
+  h3{
+
+  }
+}
