@@ -1,0 +1,17 @@
+#team {
+  background: linear-gradient(0deg, #fff 80%, #F4F4F4 20%);
+  text-align: center;
+  background-size: cover !important;
+  min-height: 100vh; }
+  #team .img_team {
+    width: 150px; }
+  #team .team_content {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* font-size: 13px; */
+    /* color: gainsboro; */
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.6); }
